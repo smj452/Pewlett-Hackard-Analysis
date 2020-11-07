@@ -147,7 +147,7 @@ WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31') AND
 SELECT * FROM emp_info;
 DROP TABLE emp_info;
 
--- join employees and salaries tables
+-- Join employees and salaries tables
 SELECT e.first_name,
      e.last_name,
      e.emp_no,
@@ -194,6 +194,7 @@ ON (de.dept_no = d.dept_no);
 
 SELECT * FROM current_emp;
 
+-- Sales team information
 SELECT ce.first_name,
      ce.last_name,
      ce.emp_no,
@@ -206,8 +207,9 @@ INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no)
 WHERE (d.dept_name = 'Sales');
    
-SELECT * FROM sales_team_info;    
+SELECT * FROM sales_team_info;  
 
+-- Sales and Development team information
 SELECT ce.first_name,
      ce.last_name,
      ce.emp_no,
@@ -219,3 +221,5 @@ ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no)
 WHERE d.dept_name IN ('Sales', 'Development');
+
+SELECT * FROM salesndeve_team_info;
