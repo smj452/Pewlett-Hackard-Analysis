@@ -47,3 +47,22 @@ GROUP BY title
 ORDER BY total DESC;
 
 SELECT * FROM retiring_titles;
+
+-- Create mentorship eligibility table
+SELECT  DISTINCT ON (e.emp_no) e.emp_no, 
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	ti.title
+INTO mentorship_eligibility
+FROM employees e
+LEFT JOIN dept_emp de
+ON e.emp_no =de.emp_no
+LEFT JOIN titles ti
+ON e.emp_no =ti.emp_no
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') AND (de.to_date = '9999-01-01')
+ORDER BY emp_no, de.to_date
+
+SELECT * FROM mentorship_eligibility;
