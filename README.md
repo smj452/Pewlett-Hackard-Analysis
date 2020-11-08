@@ -27,7 +27,7 @@ Using Postgres SQL, I extracted data from the 6 given CSV files and created new 
 ![ Mentorship_eligibility.png]( https://github.com/smj452/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_eligibility.png)
 
 **From the table above you can see that**
--	Out of the 33,118 total employees, 1,549 number of employees who were born in 1965 are eligible for the mentorship program which is very less.
+-	Out of the 33,118 total positions available shortly, 1,549 number of employees who were born in 1965 are eligible for the mentorship program which is very less.
 
 ## Summary
 
