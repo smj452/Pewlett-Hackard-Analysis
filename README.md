@@ -49,13 +49,13 @@ There seems to be enough people to mentor in most of the departments. The Develo
 
 ### Two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
-1. Retiring employee’s information with the salary range
+- Retiring employee’s information with the salary range
 
-   This would help in planning budget for refilling positions of those retired and also plan on the retirement benefits.
+  This would help in planning budget for refilling positions of those retired and also plan on the retirement benefits.
 
-2. Include retirement type information whether Voluntary, Early or Deferred
+- Include retirement type information whether Voluntary, Early or Deferred
 
-   This would help the department heads and the HR department start planning for employee changes in the company.
+  This would help the department heads and the HR department start planning for employee changes in the company.
 
 
 
