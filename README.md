@@ -17,7 +17,7 @@ Using Postgres SQL, I extracted data from the 6 given CSV files and created new 
 
 **From the table above you can see that**
 
--	Highest number of employees retiring are senior engineers with 29414 total retirements.
+-	Highest number of employees retiring are Senior engineers with 29414 total retirements.
 -	Senior Staff title has the second highest number of retirements.
 -	Least retirement is for employee titled Manager with only 2 people retiring.
 
