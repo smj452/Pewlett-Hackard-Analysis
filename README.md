@@ -53,7 +53,7 @@ There seems to be enough people to mentor in most of the departments. The Develo
 
   This would help in planning budget for refilling positions of those retired and also plan on the retirement benefits.
 
-- Include retirement type information whether Voluntary, Early or Deferred
+- Include information on number of years of credible service for each employee.
 
   This would help the department heads and the HR department start planning for employee changes in the company.
 
