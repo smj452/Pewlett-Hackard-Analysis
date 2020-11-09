@@ -34,7 +34,7 @@ Using Postgres SQL, I extracted data from the 6 given CSV files and created new 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 90,398 roles will need to be filled as "silver tsunami" begins to make an impact(See the query & output below).
 ``` 
-SELECT COUNT(title) count 
+SELECT COUNT(title) AS count 
 INTO retiring_count
 FROM unique_titles
 ORDER BY count DESC; 
